@@ -1,0 +1,12 @@
+typeof '';
+typeof 1;
+typeof NaN
+typeof true;
+typeof undefined;
+typeof Symbol();
+typeof null;
+typeof [];
+typeof {};
+typeof newDate();
+typeof /test/gi;
+typeof function(){}
