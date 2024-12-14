@@ -1,8 +1,8 @@
-var person = {
-    name:"Lee",
-    sayHellow:function(){
-        console.log(`Hello! My name is ${this.name}`);
-    }
+var student = {
+  name: "Lee",
+  sayHellow: function () {
+    console.log(`Hello! My name is ${this.name}`);
+  },
 };
-console.log(typeof person);
-console.log(person);
+console.log(typeof student);
+console.log(student);
