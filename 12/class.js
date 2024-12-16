@@ -61,3 +61,22 @@ function increase() {
 
   return ++count;
 }
+
+console.log(x);
+var x = "global";
+function foo() {
+  var x = "local";
+  // var x = 'local';
+  console.log(x);
+}
+{
+  var a = "aaa";
+}
+foo(); // local
+console.log(x); // global
+
+// 27장(기능) -> 2
+// 36장(기능) -> 3
+// 38장 (교양) -> 4
+// 39장, 40장, 41장 (러프하게) -> 5
+// 42장- 46장 비동기 프로그래밍(🤩) -> 1
