@@ -8,6 +8,8 @@ async function bar(n) {
   );
 
   console.log([a, b, c]);
+  console.log([a, b]);
+  console.log([a]);
 }
 
 bar(1);
