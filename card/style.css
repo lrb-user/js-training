@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1rem;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-type1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px 40px;
+  padding: 2rem;
+}
+.card-type1 > li {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-type1__img {
+  /* 이미지 영역을 보여주기 위해 임시로 css설정. 추후 실제 이미지 들어오면 삭제해도 되는 css코드 */
+  height: 300px;
+  background-color: gray;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.card-type1__img img {
+  width: 100%;
+}
+.card-type1__text-box {
+  padding: 2rem;
+}
+.card-type1__title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.card-type1__desc {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
